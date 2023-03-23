@@ -1,0 +1,25 @@
+{
+  "name": "custombadges",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prod-pwsh": "powershell npx tsc || copy .\\dist\\CustomBadges.plugin.js $env:APPDATA\\BetterDiscord\\plugins"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntogamerYT/CustomBadges.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntogamerYT/CustomBadges/issues"
+  },
+  "homepage": "https://github.com/AntogamerYT/CustomBadges#readme",
+  "dependencies": {
+    "@types/betterdiscord": "github:zerthox/betterdiscord-types",
+    "@types/node": "^18.15.3",
+    "typescript": "^5.0.2"
+  }
+}
